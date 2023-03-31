@@ -1,0 +1,64 @@
+header {
+  background-color: #a8a7a7;
+  border: 2px solid ;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position:absolute;
+  height: auto;
+  padding-top: 0%;
+
+
+}
+
+.progressbar {
+  color: green;
+  /* background-color: green; */
+  height: 5px;
+}
+
+.div_personnal {
+  border: 2px solid ;
+}
+
+.div_personnal input {
+  width: 49%;
+  /* display: block; */
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 0px 5px 5px;
+
+}
+
+.div_personnal input:target {
+  background-color: rgb(163, 5, 5);
+}
+
+.div_personnal label {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: large;
+  letter-spacing: 1px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 6px 0px 1px 15px;
+}
+
+.div_personnal section label {
+  width: 100px;
+}
+
+.div_personnal section {
+  width:  48%;
+  display: inline-block;
+}
+
+span h1 {
+  font-size: large;
+  display: inline;
+  color: aqua;
+  position: relative;
+  text-shadow: #F84 3px 10px;
+  scale: 150%;
+  margin: 2px 5px 0px 5px ;
+  /* background-color: #a8a7a7; */
+}
+
