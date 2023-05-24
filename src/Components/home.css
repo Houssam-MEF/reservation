@@ -1,0 +1,26 @@
+/* * {
+    background-color: gray;
+    position: relative;
+    padding: 5px;
+}
+
+span .h1 {
+    text-align: center;
+    border: 2px solid ;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-decoration-color: brown;
+    text-decoration: underline;
+    text-shadow: #F84 3px 10px; 
+  }
+
+div nav, div nav button {
+    color: gray;
+    border: 2px solid black;
+    width: max-content;
+    margin: 0px;
+    position: relative;
+    padding: 2px;
+    background-color: grey;
+} */

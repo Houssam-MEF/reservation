@@ -1,19 +1,23 @@
 import './App.css';
-import Home from "./Components/Home"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Reservation from './Components/Reservation';
+import ReservContext from './context/ReservContext';
+import Landpage from './Components/Landpage';
+import Login from './Components/Login';
+
 
 
 function App() {
   return (
     <div className="App">
-      < BrowserRouter >
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/reserver' element={<Reservation />} />
-      </Routes>
-      </BrowserRouter>
+      <ReservContext>
+        < BrowserRouter >
+        <Routes>
+          <Route path='/' element={<Landpage />} />
+          <Route path='/login' element={<Login />} />
+        </Routes>
+        </ BrowserRouter >
+      </ReservContext>
     </div>
   );
 }

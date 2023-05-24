@@ -1,12 +1,34 @@
-import React from 'react'
-import {useState} from 'react'
+<h3>Vol Info</h3>
+        <br />
+        {/*  */}
+        <div>
+        <input className='input-radio' type="radio" name="type" />
+        <label htmlFor='type' >Aller-Retour</label>
+        <input className='input-radio' type="radio" name="type" />
+        <label htmlFor='type' >Aller-Simple</label>
+        <input className='input-radio' type="radio" name="type" />
+        <label htmlFor='type' >Multi-destinations</label>
+        </div>
 
-export default function Slide() {
-    const [allImages, setAllImages] = useState("img")
+        {/*  */}
 
-  return (
-    <div>
+        <div>
+        <select className='form-select'>
+          <option value="economique">Economique</option>
+          <option value="eco_premium">Eco-Premium</option>
+          <option value="affaire">Affaires</option>
+          <option value="premier">Première</option>
+        </select>
+        </div>
+
+        {/*  */}
+
+        <div>
+          <input className='input-group' type="text" placeholder="D'où partez-vous ?" />
+          <input className='input-group' type="text" placeholder="Vers où allez-vous ?" />
+          <input className='input-group' type="date" placeholder="Départ le" />
+          <input className='input-group' type="date" placeholder="Retour le" />
+        </div>
+
         
-    </div>
-  )
-}
+
