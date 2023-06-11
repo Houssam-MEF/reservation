@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../Assets/css/animate.css';
 import '../../Assets/css/font-awesome.min.css';
 import '../../Assets/css/hover-min.css';

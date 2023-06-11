@@ -101,7 +101,7 @@ export default function PersonnalInfo() {
                   type='button'
                   value="Next"
                   className = "btn btn-outline-light w-100 py-3"
-                  onClick={()=>setPage(1)}
+                  onClick={()=>setPage(2)}
                   />
                 </div>
 

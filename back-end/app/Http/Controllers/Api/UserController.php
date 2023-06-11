@@ -27,7 +27,13 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $user = new User;
+        $user->username = $request->input('username');
+        $user->email = $request->input('email');
+        $user->password = $request->input('password');
+        $user->save();
+
+        return response()->json(['message'=>'Users Added !', 'user'=>$user]);
     }
 
     /**

@@ -50,6 +50,7 @@
 .Login-Inputs > input{
     margin: 1em;
     margin-bottom: 1.5em;
+    border: 2px solid black;
 }
 .Login-Inputs > input[placeholder]{
     /* width: 20em; */
@@ -97,6 +98,7 @@
 
 .Login-Video{
     z-index: -1;
+    width: 100%;
 }
 
 .Login-To-Home{

@@ -27,7 +27,26 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $booking = new Booking;
+        $booking->user_id = $request->input('user_id');
+        $booking->flight_id = $request->input('flight_id');
+        $booking->type = $request->input('type');
+        $booking->depart = $request->input('depart');
+        $booking->arrival = $request->input('arrival');
+        $booking->from = $request->input('from');
+        $booking->to = $request->input('to');
+        $booking->class = $request->input('class');
+        $booking->special_request = $request->input('specialReq');
+        $booking->last_name = $request->input('lastName');
+        $booking->first_name = $request->input('firstName');
+        $booking->email = $request->input('email');
+        $booking->phone = $request->input('phone');
+        $booking->number_tickets = $request->input('numberTickets');
+
+        $booking->save();
+
+        return response()->json(['message'=>'Booking Added !', 'user'=>$booking]);
+
     }
 
     /**
